@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: linear-gradient(45deg, #774d4d, #AA1151);
+}
+
+.game-board{
+    width: 1000px;
+    height: 500px;
+    border-bottom: 15px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#121A60, rgb(95, 94, 94));
+}
+
+.megan{
+    position: absolute;
+    width: 80px;
+    bottom: 0;
+    animation: megan-animation 2s infinite linear;
+}
+
+.eu{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.enunciado{
+   text-align: center;
+   text-shadow: #121A60;
+
+}
+
+.contador{
+    font-size: 80px;
+    color: rgb(68, 250, 68);
+}
+
+.resetPg{
+    margin: auto;
+    padding: 0.4rem;
+    background: linear-gradient(to left,  #841313, #AA1151);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+@keyframes megan-animation {
+    from{
+        right: -67px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0%{
+        bottom: 0;
+    }
+
+    40%{
+        bottom: 150px;
+    }
+
+    50%{
+        bottom: 150px;
+    }
+
+    60%{
+        bottom: 150px;
+    }
+
+    100%{
+        bottom: 0;
+    }
+}
