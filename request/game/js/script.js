@@ -41,7 +41,7 @@ const jump = () => {
             eu.style.animation = 'none';
             eu.style.bottom = `${myPosition}px`;
             clearInterval(loop);
-            location.href = "/home.html";
+            location.href = "/quizz/quizz.html";
         }
     }
 }, time) 

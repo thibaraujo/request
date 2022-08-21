@@ -1,0 +1,242 @@
+/* Estilos gerais*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p {
+    font-family: Roboto, Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .btn {
+    border: 3px #8c0000 solid;
+    padding: 10px 30px;
+    color: #8c0000;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+  .btn.btn-preto {
+    color: #111;
+    border-color: black;
+  }
+  .btn-preto:hover {
+    color: #8c0000;
+    border-color: #8c0000;
+  }
+  .subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000000;
+    margin: 15px auto;
+  }
+  
+  /* Header*/
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background: black;
+    padding: 15px 0;
+    z-index: 10;
+  }
+  .header a {
+    margin-top: -15px;
+  }
+  
+  .header_menu {
+    text-align: right;
+  }
+  .header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .header_menu ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+  
+  .header_menu ul li a:hover {
+    color: #8c0000;
+  }
+  
+  /* Introdução*/
+  .introducao {
+    width: 100%;
+    height: 380px;
+    background: url("/home/imagens/love.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 82.54px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  .introducao h1 {
+    font-size: 48px;
+    color: #8c0000;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .quote_externo {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #8c0000;
+  }
+  .quote_externo p {
+    font-style: italic;
+  }
+  
+  .quote_externo p::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #8c0000;
+    margin: 14px auto 10px auto;
+  }
+  .quote_externo p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #8c0000;
+    margin: 14px auto 10px auto;
+  }
+  .quote_externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+  
+  .introducao .btn:hover {
+    color: rgb(0, 0, 0);
+    border-color: black;
+  }
+  
+  /*introdução interna*/
+  .introducao-int {
+    width: 100%;
+    margin-top: 91.19px;
+    height: 160px;
+    padding-top: 40px;
+  }
+  .introducao-int h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .introducao-int h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 14px auto 10px auto;
+  }
+  
+  /*Produtos*/
+  
+  .produtos {
+    padding: 60px 0;
+  }
+  
+  .produtos_lista li {
+    background: #8c0000;
+    height: 250px;
+    margin: 10px;
+  }
+  .produtos_lista h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .produtos_icone {
+    background: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .call {
+    text-align: center;
+    clear: both;
+    padding-top: 10px;
+  }
+  
+  .call p {
+    margin-bottom: 30px;
+  }
+  
+  /*footer*/
+  
+  .footer {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .footer h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 6px 0 12px 0;
+  }
+  .footer-contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .footer-redes ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .imgzap {
+    margin-left: 10px;
+  }
+  
+  .direitos {
+    width: 100%;
+    background: #8c0000;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
