@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    margin: o;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, #841313, #AA1151);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .img-log{
+    margin: auto;
+    display: block;
+ }
+
+main.container{
+    background-color: white;
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2) ;
+    border-radius: 8px;
+}
+
+main h2{
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+main h2::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #841313, #AA1151);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+form.inputs:first-child{
+    margin-bottom: 1.5rem;
+}
+
+.inputs .underline::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+}
+
+.inputs .underline::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #841313, #AA1151);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.inputs input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+.inputs input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.7);
+}
+
+.inputs input::placeholder{
+    color: rgba(0,0,0,1);
+    font-style: oblique;
+}
+
+form input[type="submit"]{
+   margin-top: 2rem;
+   padding: 0.4rem;
+   background: linear-gradient(to left,  #841313, #AA1151);
+   cursor: pointer;
+   color: white;
+   font-size: 0.9rem;
+   font-weight: 300;
+   border-radius: 4px;
+   transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right,  #841313, #AA1151);
+}
+
+ .dica{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 300;
+ }

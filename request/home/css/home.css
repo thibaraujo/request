@@ -1,0 +1,114 @@
+.int-home {
+    background: url("/home/imagens/love.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 82.54px;
+    height: 250px;
+  }
+  .home {
+    padding-top: 3em;
+  }
+  
+  .home p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4em;
+    padding-right: 60px;
+    padding-top: 10px;
+  }
+  .home h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .home h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #000000;
+    margin: 12px 0;
+  }
+  .localgh {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .conteiner{
+    margin-top: 100px;
+
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+form.inputs:first-child{
+    margin-bottom: 1.5rem;
+}
+
+.inputs .underline::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+}
+
+.inputs .underline::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg,  #d30000, #d4cece);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.inputs input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+.inputs input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.7);
+}
+
+.inputs input::placeholder{
+    color: #d30000;
+    font-style: oblique;
+}
+
+form input[type="submit"]{
+   margin-top: 1rem;
+   padding: 0.4rem;
+   background: linear-gradient(to left,   #d30000, #292727);
+   cursor: pointer;
+   color: white;
+   font-size: 0.9rem;
+   font-weight: 300;
+   border-radius: 4px;
+   transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right,  #d30000, #292727);
+}
+
+.decod{
+  margin-top: 1rem;
+  color: aliceblue;
+}
