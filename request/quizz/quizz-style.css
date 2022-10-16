@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    background: linear-gradient(45deg, #841313, #AA1151);
+    text-align: center;
+    padding: 15rem;
+}
+
+#legenda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 5%;
+}
+
+#wrapper{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul{
+    width: 100%;
+    max-width: 500px;
+}
+
+ul {
+    padding: 0px;
+}
+
+#titulo{
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+}
+
+.alternativa{
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    background: #AA1151;
+}
+
+.alternativa:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#pontos, #result{
+    color: aliceblue;
+    margin-bottom: 30px;
+}

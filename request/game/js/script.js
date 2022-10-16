@@ -34,14 +34,14 @@ const jump = () => {
         eu.style.bottom = `${myPosition}px`;
         clearInterval(loop);
     }else{
-        if(count >= 40){//valor correto = 140
+        if(count >= 140){//valor correto = 140
             alert("Parabéns, BB!");
             megan.style.animation = 'none';
             megan.style.left = `${meganPosition}px`;
             eu.style.animation = 'none';
             eu.style.bottom = `${myPosition}px`;
             clearInterval(loop);
-            location.href = "/home.html";
+            location.href = "/quizz/quizz.html";
         }
     }
 }, time) 
