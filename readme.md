@@ -37,7 +37,9 @@
 </center>
 
 ## Final Feliz
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Após o botão (SIM) da etapa anterior ser pressionado, a pretendente foi direcionada à uma página com a foto do casal, onde muitos fogos de artifícios, feitos em CSS explodem, de acordo com o evento de movimentação do mouse. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Após o botão (SIM) da etapa anterior ser pressionado, a pretendente foi direcionada à uma página com a foto do casal, onde muitos fogos de artifícios, feitos em CSS, explodem, de acordo com o evento de movimentação do mouse. </p>
+<p>
 <center>
 <img src="https://user-images.githubusercontent.com/86898996/203444966-d9e5086a-f2ab-49b7-8d89-019fe3abee4d.png">
 </center>
+</p>
